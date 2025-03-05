@@ -1,0 +1,22 @@
+{
+  "source": ["design-tokens/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "src/styles/",
+      "files": [{
+        "destination": "tokens.css",
+        "format": "css/variables",
+        "options": {
+          "showFileHeader": false,
+          "outputReferences": false
+        },
+        "filter": {
+          "attributes": {
+            "category": ["color", "spacing"]
+          }
+        }
+      }]
+    }
+  }
+} 

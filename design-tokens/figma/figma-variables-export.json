@@ -1,0 +1,2586 @@
+{
+  "tokens-default": {
+    "spacing": {
+      "0": {
+        "value": "0px",
+        "type": "spacing",
+        "scope": [
+          "GAP",
+          "FONT_VARIATIONS"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "1": {
+        "value": "4px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "2": {
+        "value": "8px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "3": {
+        "value": "12px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "4": {
+        "value": "16px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "5": {
+        "value": "20px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "6": {
+        "value": "24px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "7": {
+        "value": "28px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "8": {
+        "value": "32px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "9": {
+        "value": "36px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "10": {
+        "value": "40px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "11": {
+        "value": "44px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "12": {
+        "value": "48px",
+        "type": "spacing",
+        "scope": [
+          "GAP"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      }
+    },
+    "radius": {
+      "rounded-sm": {
+        "value": "2px",
+        "type": "borderRadius",
+        "scope": [
+          "CORNER_RADIUS"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "rounded-md": {
+        "value": "6px",
+        "type": "borderRadius",
+        "scope": [
+          "CORNER_RADIUS"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "rounded-lg": {
+        "value": "8px",
+        "type": "borderRadius",
+        "scope": [
+          "CORNER_RADIUS"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "rounded-xl": {
+        "value": "12px",
+        "type": "borderRadius",
+        "scope": [
+          "CORNER_RADIUS"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "rounded-full": {
+        "value": "9999px",
+        "type": "borderRadius",
+        "scope": [
+          "CORNER_RADIUS"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      }
+    },
+    "text": {
+      "text-primary": {
+        "value": "{color.primary.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "text-primary-foreground": {
+        "value": "{color.primary-foreground.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "text-secondary": {
+        "value": "{color.secondary.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "text-secondary-foreground": {
+        "value": "{color.secondary-foreground.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "text-muted": {
+        "value": "{color.muted.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "text-muted-foreground": {
+        "value": "{color.muted-foreground.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "text-accent": {
+        "value": "{color.accent.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "text-accent-foreground": {
+        "value": "{color.accent-foreground.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "text-destructive": {
+        "value": "{color.destructive.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "text-destructive-foreground": {
+        "value": "{color.destructive-foreground.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "text-popover-foreground": {
+        "value": "{color.popover-foreground.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "text-confirm": {
+        "value": "{green.green-600}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      }
+    },
+    "background": {
+      "bg-background": {
+        "value": "{color.background.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-background-90": {
+        "value": "{color.background.90}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-background-80": {
+        "value": "{color.background.80}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-primary": {
+        "value": "{color.primary.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-primary-90": {
+        "value": "{color.primary.90}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-primary-80": {
+        "value": "{color.primary.80}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-primary-20": {
+        "value": "{color.primary.20}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-primary-10": {
+        "value": "{color.primary.10}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-secondary": {
+        "value": "{color.secondary.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-secondary-90": {
+        "value": "{color.secondary.90}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-secondary-80": {
+        "value": "{color.secondary.80}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-destructive": {
+        "value": "{color.destructive.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-destructive-90": {
+        "value": "{color.destructive.90}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-destructive-80": {
+        "value": "{color.destructive.80}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-accent": {
+        "value": "{color.accent.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-accent-90": {
+        "value": "{color.accent.90}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-accent-80": {
+        "value": "{color.accent.80}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-accent-50": {
+        "value": "{color.accent.50}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-muted": {
+        "value": "{color.muted.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-muted-90": {
+        "value": "{color.muted.90}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-muted-80": {
+        "value": "{color.muted.80}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-muted-50": {
+        "value": "{color.muted.50}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "bg-popover": {
+        "value": "{color.popover.100}",
+        "type": "color.background",
+        "scope": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      }
+    },
+    "border": {
+      "border-input": {
+        "value": "{color.input.100}",
+        "type": "color.border",
+        "scope": [
+          "STROKE_COLOR"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "border-primary": {
+        "value": "{color.primary.100}",
+        "type": "color.border",
+        "scope": [
+          "STROKE_COLOR"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "border-primary-50": {
+        "value": "{color.primary.50}",
+        "type": "color.border",
+        "scope": [
+          "STROKE_COLOR"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "border-destructive": {
+        "value": "{color.destructive.50}",
+        "type": "color.border",
+        "scope": [
+          "STROKE_COLOR"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "border-toast-destructive": {
+        "value": "{color.muted.40}",
+        "type": "color.border",
+        "scope": [
+          "STROKE_COLOR"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      },
+      "border-muted": {
+        "value": "{color.muted.100}",
+        "type": "color.border",
+        "scope": [
+          "STROKE_COLOR"
+        ],
+        "$extensions": {
+          "tokens-studio": {
+            "mode": "default"
+          }
+        }
+      }
+    }
+  },
+  "primitives-light": {
+    "color": {
+      "border": {
+        "80": {
+          "value": "#E4E4E7CC",
+          "type": "color.border",
+          "scope": [
+            "STROKE_COLOR"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#E4E4E7E5",
+          "type": "color.border",
+          "scope": [
+            "STROKE_COLOR"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#E4E4E7FF",
+          "type": "color.border",
+          "scope": [
+            "STROKE_COLOR"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "input": {
+        "80": {
+          "value": "#E4E4E7CC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#E4E4E7E5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#E4E4E7FF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "ring": {
+        "80": {
+          "value": "#A1A1AACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#A1A1AAE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#A1A1AAFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "background": {
+        "80": {
+          "value": "#FFFFFFCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#FFFFFFE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#FFFFFFFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "foreground": {
+        "50": {
+          "value": "#09090B80",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "80": {
+          "value": "#09090BCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#09090BE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#09090BFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "primary": {
+        "10": {
+          "value": "#18181B1A",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "20": {
+          "value": "#18181B33",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "50": {
+          "value": "#18181B80",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "80": {
+          "value": "#18181BCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#18181BE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#18181BFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "primary-foreground": {
+        "80": {
+          "value": "#FAFAFACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#FAFAFAE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#FAFAFAFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "secondary": {
+        "80": {
+          "value": "#E2E8F0CC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#E2E8F0E5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#E2E8F0FF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "secondary-foreground": {
+        "80": {
+          "value": "#18181BCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#18181BE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#18181BFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "destructive": {
+        "50": {
+          "value": "#EF444480",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "80": {
+          "value": "#EF4444CC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#EF4444E5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#EF4444FF",
+          "type": "color",
+          "scope": [
+            "ALL_SCOPES"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "destructive-foreground": {
+        "80": {
+          "value": "#FAFAFACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#FAFAFAE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#FAFAFAFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "muted": {
+        "40": {
+          "value": "#F4F4F566",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "50": {
+          "value": "#F4F4F580",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "80": {
+          "value": "#F4F4F5CC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#F4F4F5E5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#F4F4F5FF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "muted-foreground": {
+        "80": {
+          "value": "#71717ACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#71717AE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#71717AFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "accent": {
+        "50": {
+          "value": "#F4F4F580",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "80": {
+          "value": "#F4F4F5CC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#F4F4F5E5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#F4F4F5FF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "accent-foreground": {
+        "80": {
+          "value": "#18181BCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#18181BE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#18181BFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "popover": {
+        "80": {
+          "value": "#FFFFFFCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#FFFFFFE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#FFFFFFFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "popover-foreground": {
+        "80": {
+          "value": "#09090BCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#09090BE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#09090BFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "card": {
+        "80": {
+          "value": "#FFFFFFCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#FFFFFFE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#FFFFFFFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      },
+      "card-foreground": {
+        "80": {
+          "value": "#09090BCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "90": {
+          "value": "#09090BE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        },
+        "100": {
+          "value": "#09090BFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "primitives-dark": {
+    "color": {
+      "border": {
+        "80": {
+          "value": "#27272ACC",
+          "type": "color.border",
+          "scope": [
+            "STROKE_COLOR"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#27272AE5",
+          "type": "color.border",
+          "scope": [
+            "STROKE_COLOR"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#27272AFF",
+          "type": "color.border",
+          "scope": [
+            "STROKE_COLOR"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "input": {
+        "80": {
+          "value": "#27272ACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#27272AE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#27272AFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "ring": {
+        "80": {
+          "value": "#27272ACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#27272AE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#27272AFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "background": {
+        "80": {
+          "value": "#09090BCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#09090BE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#09090BFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "foreground": {
+        "50": {
+          "value": "#FAFAFA80",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "80": {
+          "value": "#FAFAFACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#FAFAFAE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#FAFAFAFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "primary": {
+        "10": {
+          "value": "#FAFAFA1A",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "20": {
+          "value": "#FAFAFA33",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "50": {
+          "value": "#FAFAFA80",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "80": {
+          "value": "#FAFAFACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#FAFAFAE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#FAFAFAFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "primary-foreground": {
+        "80": {
+          "value": "#18181BCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#18181BE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#18181BFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "secondary": {
+        "80": {
+          "value": "#1E293BCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#1E293BE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#1E293BFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "secondary-foreground": {
+        "80": {
+          "value": "#FAFAFACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#FAFAFAE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#FAFAFAFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "destructive": {
+        "50": {
+          "value": "#EF444480",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "80": {
+          "value": "#EF4444CC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#EF4444E5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#EF4444FF",
+          "type": "color",
+          "scope": [
+            "ALL_SCOPES"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "destructive-foreground": {
+        "80": {
+          "value": "#FEF2F2CC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#FEF2F2E5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#FEF2F2FF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "muted": {
+        "40": {
+          "value": "#27272A66",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "50": {
+          "value": "#27272A80",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "80": {
+          "value": "#27272ACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#27272AE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#27272AFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "muted-foreground": {
+        "80": {
+          "value": "#A1A1AACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#A1A1AAE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#A1A1AAFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "accent": {
+        "50": {
+          "value": "#27272A80",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "80": {
+          "value": "#27272ACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#27272AE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#27272AFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "accent-foreground": {
+        "80": {
+          "value": "#FAFAFACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#FAFAFAE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#FAFAFAFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "popover": {
+        "80": {
+          "value": "#09090BCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#09090BE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#09090BFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "popover-foreground": {
+        "80": {
+          "value": "#FAFAFACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#FAFAFAE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#FAFAFAFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "card": {
+        "80": {
+          "value": "#09090BCC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#09090BE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#09090BFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      },
+      "card-foreground": {
+        "80": {
+          "value": "#FAFAFACC",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "90": {
+          "value": "#FAFAFAE5",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        },
+        "100": {
+          "value": "#FAFAFAFF",
+          "type": "color.background",
+          "scope": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "$extensions": {
+            "tokens-studio": {
+              "mode": "dark"
+            }
+          }
+        }
+      }
+    }
+  }
+}
