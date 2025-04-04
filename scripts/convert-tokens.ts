@@ -41,6 +41,29 @@ const config: TokenConfig = {
   colorOpacity: '100' // The opacity level to use from color tokens
 };
 
+// shadcn/ui expected token categories
+const shadcnTokenCategories = [
+  'background',
+  'foreground',
+  'muted',
+  'muted-foreground',
+  'popover',
+  'popover-foreground',
+  'card',
+  'card-foreground',
+  'border',
+  'input',
+  'primary',
+  'primary-foreground',
+  'secondary',
+  'secondary-foreground',
+  'accent',
+  'accent-foreground',
+  'destructive',
+  'destructive-foreground',
+  'ring'
+];
+
 function convertTokens(config: TokenConfig) {
   // Read the Figma tokens export
   const figmaTokens = JSON.parse(readFileSync(config.inputPath, 'utf8')) as FigmaTokens;
@@ -84,21 +107,39 @@ function convertTokens(config: TokenConfig) {
   darkVariables['ring-width'] = '2px';
   darkVariables['ring-offset'] = '2px';
 
-  // Add color tokens
+  // Add color tokens with opacity variants
   for (const [key, value] of Object.entries(tokens.colors)) {
     if (typeof value === 'object') {
       const { DEFAULT } = value;
       const hsl = convertHexToHsl(DEFAULT).replace(/ \/ 100%$/, '');
       cssVariables[key] = hsl;
+      
+      // Add opacity variants if they exist in the Figma export
+      const opacityVariants = ['10', '20', '50', '80', '90'];
+      for (const opacity of opacityVariants) {
+        if (lightColors[key]?.[opacity]) {
+          const opacityHsl = convertHexToHsl(lightColors[key][opacity].value).replace(/ \/ 100%$/, '');
+          cssVariables[`${key}-${opacity}`] = opacityHsl;
+        }
+      }
     }
   }
 
-  // Add dark mode color tokens
+  // Add dark mode color tokens with opacity variants
   for (const [key, value] of Object.entries(tokens.darkColors)) {
     if (typeof value === 'object') {
       const { DEFAULT } = value;
       const hsl = convertHexToHsl(DEFAULT).replace(/ \/ 100%$/, '');
       darkVariables[key] = hsl;
+      
+      // Add opacity variants if they exist in the Figma export
+      const opacityVariants = ['10', '20', '50', '80', '90'];
+      for (const opacity of opacityVariants) {
+        if (darkColors[key]?.[opacity]) {
+          const opacityHsl = convertHexToHsl(darkColors[key][opacity].value).replace(/ \/ 100%$/, '');
+          darkVariables[`${key}-${opacity}`] = opacityHsl;
+        }
+      }
     }
   }
 

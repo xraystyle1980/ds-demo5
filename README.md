@@ -3,13 +3,15 @@
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
 [![Shadcn/UI](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)](https://ui.shadcn.com)
 [![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![Style Dictionary](https://img.shields.io/badge/Style_Dictionary-80d9d6?style=for-the-badge&logo=styledictionary&logoColor=white)](https://amzn.github.io/style-dictionary)
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com)
 
-A React + TypeScript setup for working with design tokens exported from Figma, featuring a complete design system with theme switching, accessible components, and automatic token conversion.
+A React + TypeScript project built on shadcn/ui and TailwindCSS that streamlines Figma token exports through automatic Style Dictionary conversion. While accessibility and theme switching are integrated, the core focus is on the Figma variable/token-driven design system.
 
 ## Requirements
 
 - Node.js 18.x or higher
+- pnpm 8.x or higher
 - Tailwind CSS 3.x (not compatible with Tailwind 4.x yet)
 - Vite 5.x
 - React 18.x
@@ -18,17 +20,17 @@ A React + TypeScript setup for working with design tokens exported from Figma, f
 
 ```bash
 # Create new Vite project with React + TypeScript
-npm create vite@latest my-app -- --template react-ts
+pnpm create vite@latest my-app -- --template react-ts
 cd my-app
 
 # Install dependencies (specify Tailwind 3.x)
-npm install tailwindcss@^3.4.1 @radix-ui/react-slot lucide-react class-variance-authority clsx tailwind-merge
+pnpm add tailwindcss@^3.4.1 @radix-ui/react-slot lucide-react class-variance-authority clsx tailwind-merge
 
 # PostCSS is handled by Vite internally, but we'll create the config
-npx tailwindcss init -p
+pnpm dlx tailwindcss init -p
 
 # Install development dependencies
-npm install -D @types/node
+pnpm add -D @types/node
 ```
 
 ## PostCSS Configuration
@@ -97,6 +99,8 @@ The system processes your Figma tokens through these steps:
    - Converts color tokens from HEX to HSL format
    - Processes spacing and radius tokens
    - Generates light and dark theme variables
+   - Handles opacity variants (10, 20, 50, 80, 90) for colors
+   - Maintains compatibility with shadcn/ui token structure
 2. **Integration**: 
    - CSS variables are generated in `src/styles/tokens.css`
    - Tailwind config is updated to use these variables
@@ -152,7 +156,8 @@ const buttonVariants = cva(
   - Primary, Secondary, Accent colors
   - Background, Foreground pairs
   - Semantic colors (destructive, muted)
-- **Spacing**: Values from 0-12 (0px to 48px)
+  - Opacity variants (10, 20, 50, 80, 90) for all colors
+- **Spacing**: Values from 0-18 (0px to 72px)
 - **Radius**: sm, md, lg, xl, full
 - **Interactive States**:
   - Hover effects
@@ -165,5 +170,10 @@ const buttonVariants = cva(
 - **Icon Support**: Integration with Lucide icons
 - **Variants**: Multiple style variants per component
 - **Composition**: Slot pattern for component composition
+
+### 9. shadcn/ui Integration
+This project uses the shadcn/ui approach of copying components into your project rather than installing them as a package. This gives you full control over the components and allows for better integration with your token system.
+
+Components are placed in `src/components/ui/` and can be customized to match your design system. The base components use your token system for styling, ensuring consistency across your application.
 
 For detailed token documentation, check your Figma design system documentation.
