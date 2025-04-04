@@ -33,6 +33,13 @@ pnpm dlx tailwindcss init -p
 pnpm add -D @types/node
 ```
 
+### Figma Resources
+
+This project is based on the following Figma files:
+
+- **Design System Library**: [ds-demo-library-figma-to-shadcn-ui-tailwind](https://www.figma.com/community/file/1490098810930924038/ds-demo-library-figma-to-shadcn-ui-tailwind)
+- **Theme Tokens**: [ds-demo-theme-figma-to-shadcn-ui-tailwind](https://www.figma.com/community/file/1490096029662140932/ds-demo-theme-figma-to-shadcn-ui-tailwind)
+
 ## PostCSS Configuration
 Vite handles PostCSS processing internally. The `postcss.config.js` created by Tailwind CLI is used by Vite's built-in PostCSS setup. No additional configuration is needed unless you want to add more PostCSS plugins.
 
